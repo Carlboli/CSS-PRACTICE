@@ -1,0 +1,41 @@
+.logo img{
+    width: 90px;
+}
+.menu{
+    background-color: gainsboro;
+    border-bottom: 2px solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+.enlaces{
+    display: flex;
+    align-items: center;
+}
+.enlaces ul{ 
+    list-style: none;
+    display: flex;    
+}
+.enlaces ul li{
+    margin-left: 10px;
+}
+.enlaces ul li a{
+    text-decoration: none; /*quitar enumeradores*/
+    color: #000;
+    text-transform: uppercase; /*MAYUSCULA*/
+    font-weight: bold;/*NEGRITA*/
+    font-size: 12px;
+
+}
+.botones{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.botones a{
+    text-decoration: none;
+    color: #000;
+    background-color: blanchedalmond;
+    padding: 5px 7px;
+    margin: 5px; ;
+}
